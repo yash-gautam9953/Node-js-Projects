@@ -1,0 +1,17 @@
+.post{
+    background-color: yellow;
+    padding: 1;
+    border:2px solid black;
+    margin: 10px;
+}
+
+h1{
+    color: maroon;
+    text-align: center;
+}
+.username{
+    font-style: italic;
+    color: maroon;
+    
+    
+}

@@ -1,0 +1,14 @@
+
+
+.image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+footer{
+  text-align: center;
+  background-color: blanchedalmond;
+  padding: 50px 0 50px 0;
+}
+

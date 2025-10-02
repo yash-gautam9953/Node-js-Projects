@@ -1,0 +1,63 @@
+<% layout("/layouts/boilerplate") -%>
+<body>
+  <div class="row">
+    <div class="col-8 offset-2">
+      <form method="post" action="/listings/<%= list._id %>?_method=PUT" novalidate class="needs-validation">
+        <div class="col-md-4">
+          <label for="title" class="form-label">Title</label>
+          <input
+            name="editlisting[title]"
+            class="form-control"
+            required
+          />
+        </div>
+
+        <div class="col-md-4">
+          <label for="description" class="form-label">Description</label>
+          <textarea name="editlisting[description]" class="form-control" required></textarea
+          >
+        </div>
+        <div class="col-md-4">
+          <label for="image" class="form-label">Image URL</label>
+          <input
+            name="editlisting[image]"
+            class="form-control"
+            required
+          />
+        </div>
+
+        <div class="col-md-4">
+          <label for="price" class="form-label"> Price</label>
+          <input
+            name="editlisting[price]"
+            value="<%= list.price %>"
+            class="form-control"
+            required
+          />
+        </div>
+
+        <div class="col-md-4">
+          <label for="location" class="form-label">Location</label>
+          <input
+            name="editlisting[location]"
+            value="<%= list.location %>"
+            class="form-control"
+            required
+          />
+        </div>
+
+        <div class="col-md-4">
+          <label for="country" class="form-label">Country</label>
+          <input
+            name="editlisting[country]"
+            value="<%= list.country %>"
+            class="form-control"
+            required
+          />
+        </div>
+        <br><br>
+        <button class="btn btn-dark">Update !</button>
+      </form>
+    </div>
+  </div>
+</body>

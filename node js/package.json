@@ -1,0 +1,20 @@
+{
+  "name": "yash",
+  "version": "1.0.0",
+  "description": "Its a good package",
+  "main": "first.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js",
+    "dev" : "nodemon server.js"
+  },
+  "author": "yash",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cli": "^18.2.3",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

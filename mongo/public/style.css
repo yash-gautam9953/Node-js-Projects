@@ -1,0 +1,33 @@
+*{
+    font-size: 1.1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.chat{
+    background-color:skyblue ;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight:800;
+    font-style: italic;
+}
+
+.message{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    margin : 5px;
+}
+
+.Feedbacks{
+    border: 3px dotted black;
+    padding: 20px;
+    margin: 20px;
+}

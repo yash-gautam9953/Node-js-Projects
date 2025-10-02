@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Madimi One" ,sans-serif;
+}
+
+body{
+    background-color: rgb(0, 0, 32);
+    color: white;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+  justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+}
+
+.left{
+    font-size: 3rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftsec{
+    height: 70vh;
+    width: 35%;
+    font-size: 3.4rem;
+    margin: 30px 0;
+    
+}
+.rightsec{
+    height: 50vh;
+    width: 30%;
+    margin: 30px 0;
+}
+img{
+    height: 50vh;
+    width: 25vw;
+    margin: 2rem;
+}
+
+#element{
+ color: aqua;
+ font-size: 4rem;
+ margin-top: 50px;
+}
+.yash2{
+    color: purple;
+}
+
+.section2{
+    max-width: 80vw;
+    height: 80vh;
+    margin: auto;
+    
+}
+
+hr{
+    margin: 40px 60px;
+}
+.button{
+    display: flex;
+}
+button{
+    padding: 5px;
+    font-size: 1.5rem;
+    margin: 30px 20px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+button:hover{
+    background-color: green;
+}
+
+.ulli{
+    display: flex;
+    background-color:rgb(26, 22, 22);
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+footer{
+    background-color:rgb(26, 22, 22);
+    text-align: center;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul img{
+    height: 40px;
+    width:40px;
+ margin: 0;
+
+
+}
+
+
+
